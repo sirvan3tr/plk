@@ -1,14 +1,14 @@
 # Site settings
 title: PLK
-description: "A minimal blog template, build with Jekyll."
-url: "http://www.jacoporabolini.com/emerald"
+description: "PLKRA Website"
+url: ""
 author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.jacoporabolini.com"
+  name: "Sirvan Almasi"
+  email: ""
+  url: ""
 
 # Build settings
-baseurl: /PLK/  # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /plk  # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
