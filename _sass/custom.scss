@@ -1,0 +1,71 @@
+/*- Custom style -*/
+
+// -- Put custom style under this point -- //
+.kensington-header {
+    color: $kensington-red;
+    font-size: 21px;
+    position: relative;
+    top: -12px;
+}
+
+.homepage-blurb {
+    text-align: justify;
+    line-height: 30px;
+}
+
+.icon {
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-size: 25px auto;
+}
+.tel-icon {
+    background-image: url("/PLK/img/mobile_icon.svg");
+}
+
+.email-icon {
+    background-image: url("/PLK/img/email_icon.svg");
+}
+
+.committee-header {
+    font-weight:bold;
+    margin-top:30px;
+    color: $other-red;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.three-cols {
+    display: table;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+.sidebars {
+    width: 120px;
+    position: fixed;
+    top: 50vh;
+}
+
+#left-sidebar {
+    left: 50px;
+}
+
+#right-sidebar {
+    padding-top: 40px;
+    right: 50px;
+}
